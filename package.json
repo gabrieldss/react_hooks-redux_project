@@ -1,0 +1,40 @@
+{
+  "name": "react_hooks_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "react-scripts": "3.1.2",
+    "redux": "^4.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrieldss/react_hooks_project.git"
+  },
+  "author": "gabriel_souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrieldss/react_hooks_project/issues"
+  },
+  "homepage": "https://github.com/gabrieldss/react_hooks_project#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
