@@ -28,7 +28,7 @@ const initState = {
            return {...state,counter:0} 
        
      default:
-         return initState
+         return state
     }
 }
  
