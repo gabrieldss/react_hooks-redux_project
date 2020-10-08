@@ -2,7 +2,7 @@ import React from 'react';
 import {useSelector, useDispatch} from 'react-redux';
 
 const ItemList = (props) => {
-    const todolist = useSelector(state => state.root2.todolist);
+    const todolist = useSelector(state => state.root2.list);
     const dispatch = useDispatch()
 
     const removeItem = (id) => {
@@ -17,10 +17,9 @@ const ItemList = (props) => {
                     removeItem(props.item.id)
                 }}
                     className='secondary-content'>
-                        <i className="remove-btn material-icons red-text">delete</i>
+                        <i className="btn-todo-remove material-icons red-text">delete</i>
             </div>
         </li>
     )
 }
-
 export default ItemList

@@ -3,15 +3,14 @@ import { useSelector,useDispatch } from 'react-redux';
 
 const MyCounter = () => {
   const counter = useSelector(state => state.root1.counter);
-  
   const dispatch = useDispatch();
 
     return (         
         <section id="section-counter">
           
-        <h3 class="center-align white-text black">My Counter</h3>
-        <h5 id="init-number" class="center-align">{counter}</h5>
-        <div class="row counter-btns">
+        <h3 className="center-align white-text black">My Counter</h3>
+        <h5 id="init-number" className="center-align">{counter}</h5>
+        <div className="row counter-btns">
         <button className="btn-small green" onClick={() => dispatch({ type: 'INCREMENT_TWO' })}>
         +2
         </button>

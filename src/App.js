@@ -1,16 +1,18 @@
 import React from 'react';
+import Footer from './component/Footer';
 import MyCounter from './views/MyCounter';
 import MyToDoList from './views/MyToDoList'
 
 function App () {
     return (
-        <div class="App">
-            <div id="container-counter" class="container">
-                <MyCounter/>
-            </div>
-            <div id="container-todolist" class="container">
+        <div className="App">
+            <div id="container-todolist" className="container">
                 <MyToDoList/>
             </div>
+            <div id="container-counter" className="container">
+                <MyCounter/>
+            </div>
+                <Footer/>
         </div>
     )
 }
