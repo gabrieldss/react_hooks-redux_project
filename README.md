@@ -1,4 +1,4 @@
-# Project of Topics in Computing - REACT HOOKS
+# Project of Topics in Computing - REACT (HOOKS & REDUX)
 
 ### Initialize project:
 **1.** Open in Visual Studio Code or other IDE of your preference;
@@ -8,3 +8,6 @@
 ---> npm install;
 <br>
 ---> npm start.
+<br>
+### Access this project in: 
+https://react-hooks-redux-project.herokuapp.com/
