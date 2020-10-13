@@ -1,5 +1,5 @@
 {
-  "name": "react_hooks_project",
+  "name": "react_hooks-redux_project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabrieldss/react_hooks_project.git"
+    "url": "git+https://github.com/gabrieldss/react_hooks-redux_project.git"
   },
   "author": "gabriel_souza",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gabrieldss/react_hooks_project/issues"
+    "url": "https://github.com/gabrieldss/react_hooks-redux_project/issues"
   },
-  "homepage": "https://github.com/gabrieldss/react_hooks_project#readme",
+  "homepage": "https://github.com/gabrieldss/react_hooks-redux_project#readme",
   "browserslist": {
     "production": [
       ">0.2%",
