@@ -11,13 +11,14 @@ const ItemList = (props) => {
     }
 
     return (
-        <li className="collection-item" key={props.item.id}>{props.item.content}
+        <li className="collection-item">
+            {props.item.content}
             <div
                 onClick={() => {
                     removeItem(props.item.id)
                 }}
-                    className='secondary-content'>
-                        <i className="btn-todo-remove material-icons red-text">delete</i>
+                className='secondary-content'>
+                    <i className="btn-todo-remove material-icons red-text">delete</i>
             </div>
         </li>
     )

@@ -16,7 +16,7 @@ const MyToDoList = () => {
     if(inputTodo.trim().length>=1)
     {   
         let newTodoObject={
-            id: Math.random(),
+            id: Math.floor(Math.random()*1000001),
             content:inputTodo
         }
         dispatch({type:'ADD',payload:newTodoObject});
@@ -48,7 +48,7 @@ const MyToDoList = () => {
         <input onChange={handleInput} value={inputTodo} placeholder="Add to do..." id="todo-input" type="text" />
         </div>
         
-        <button id="btn-todo-add" className="btn col s2 green" onClick={addNewTodo} >ADD</button>
+        <button id="btn-todo-add" className="btn col s2 green" onClick={addNewTodo}>ADD</button>
 
         </div>
 
